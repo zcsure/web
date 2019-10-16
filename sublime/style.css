@@ -1,0 +1,39 @@
+*-----------------------------全局样式-------------------------------------*/
+  *{margin:0;padding:0}
+  li{list-style:none}
+  img{vertical-align:top;border:none}
+  legend{display:none}
+  fieldset{border:none}
+  a{text-decoration:none}
+  a:hover,a:active{text-decoration:none}
+  .clear {clear: both; }
+/*-----------------------------登录页面-------------------------------------*/
+  body{font:12px/1.5 Microsoft YaHei;position:relative;margin:0 auto;color:#000}
+  #container{
+      width:960px;
+      box-shadow: 0 0 15px #999999;
+      margin: 0 auto;
+      overflow-x: hidden;
+      position: relative;
+  }
+  .login{background:#0c7fc2 url(./images/bj.jpg) no-repeat center top ;height:600px}
+  .login_hd{background: url(./images/LOGO.jpg) no-repeat;float:left;margin: 20px 20px 0;width: 523px;height:87px;}
+  .login_banner{background:url(./images/banner.gif) no-repeat;float:left;margin:
+210px 80px 0;width:310px;height:53px;}
+  .login_sc{position:relative; background:url(./images/login_bj.png) no-repeat;float:right;width:390px;
+    height:240px;margin:110px 50px 50px;}
+  .login_help{float:right;margin:6px -16px 10px;width:100px;height:30px;font-size:
+14px;color:#1e7bbd}
+  .login_help a{color:#0101ff;}
+  .login_form{width:27px;height: 170px;padding:27px 28px 0 26px;color: #000101;position:relative;}
+  .username{height: 57px;margin:20px 90px 13px;}
+  .password{height: 57px;margin:-25px 90px 13px;}
+  .username input,.password input{width:175px;height:30px;border:0;color:#999;font
+-size:14px;line-height:32px}
+  .username input{position:absolute; top:80px; left:147px; }
+.password input{position:absolute; top:130px; left:147px; }
+.login_btn{text-align:center;height:42px;margin:0;position:absolute; top:170px;left:150px; }
+.login_btn input{background:url(./images/login_btn.png) no-repeat;width:50px;height:27px;letter-spacing: 10px}
+.passwd_find{margin:0px 20px 0;height:30px;font-size:14px;position:absolute;top:170px; left:80px; width:350px;text-align:center;color:#f00}
+.passwd_find a{color:#F70938;}
+
